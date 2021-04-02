@@ -1,0 +1,15 @@
+const BASE_URL_DEV = "";
+const API_VERSION_DEV = "";
+const BASE_SCOPE_URL_DEV = "";
+
+const BASE_URL_PRODUCTION = "";
+const API_VERSION_PRODUCTION = "";
+const BASE_SCOPE_URL_PRODUCTION = '';
+
+export const BASE_API_URL = process.env.NODE_ENV === 'production' ?
+ `${BASE_URL_PRODUCTION}${API_VERSION_PRODUCTION}` :
+ `${BASE_URL_DEV}${API_VERSION_DEV}`;
+
+ export const BASE_SCOPE_API_URL = process.env.NODE_ENV === 'production' ?
+ `${BASE_SCOPE_URL_PRODUCTION}${API_VERSION_PRODUCTION}` :
+ `${BASE_SCOPE_URL_DEV}${API_VERSION_DEV}`;

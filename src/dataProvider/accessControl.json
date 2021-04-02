@@ -1,0 +1,184 @@
+{
+  "access_controls": {
+    "dashboard": {
+      "title": "Dash Board",
+      "show_in_sidebar": 1,
+      "permissions": []
+    },
+    "organization": {
+      "title": "Organization",
+      "show_in_sidebar": 1,
+      "permissions": [
+        {
+          "control_name": "org_update_org",
+          "title": "Update Organization details"
+        },
+        {
+          "control_name": "org_read_billing",
+          "title": "Read billing details"
+        },
+        {
+          "control_name": "org_update_billing_details",
+          "title": "Update billing details"
+        },
+        {
+          "control_name": "org_read_org_details",
+          "title": "Read Organization details"
+        }
+      ]
+    },
+    "clients": {
+      "title": "Clients",
+      "show_in_sidebar": 1,
+      "permissions": []
+    },
+    "scopeDoc": {
+      "title": "Scope Doc",
+      "show_in_sidebar": 1,
+      "permissions": [
+        {
+          "control_name": "sf_clients_clients",
+          "title": "Add Client"
+        }
+      ]
+    },
+    "rolesmanagement": {
+      "title": "Role Management",
+      "show_in_sidebar": 1,
+      "permissions": [
+        {
+          "control_name": "org_update_role",
+          "title": "Update Role details"
+        },
+        {
+          "control_name": "org_update_role_permission",
+          "title": "Update Role Permission"
+        },
+        {
+          "control_name": "org_create_role",
+          "title": "Role creation"
+        },
+        {
+          "control_name": "org_list_role",
+          "title": "list roles"
+        },
+        {
+          "control_name": "org_read_role",
+          "title": "View roles"
+        },
+        {
+          "control_name": "org_read_role_permission",
+          "title": "view role permissions"
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profile",
+      "show_in_sidebar": 1,
+      "permissions": [
+          {
+            "control_name": "sf_service_agent_profile_view edit staff profile",
+            "title": "manage service agent staff profile"
+          }
+
+      ]
+    },
+    "userManagement": {
+      "title": "User Management",
+      "show_in_sidebar": 1,
+      "permissions": [
+        {
+          "control_name": "sf_org_bulk_user",
+          "title": "Bulk upload organization users"
+        },
+        {
+          "control_name": "sf_org_update_user_permission",
+          "title": "Update permissions of organization users"
+        },
+        {
+          "control_name": "sf_org_delete_user",
+          "title": "Delete organization users"
+        },
+        {
+          "control_name": "sf_org_invite_users",
+          "title": "Delete organization users"
+        },
+        {
+          "control_name": "sf_org_list_users",
+          "title": "View list of organization users"
+        }
+      ]
+    },
+    "Induction": {
+      "title": "Induction",
+      "show_in_sidebar": 1,
+      "permissions": []
+    },
+    "ServiceAgent": {
+      "title": "Service Agent",
+      "show_in_sidebar": 1,
+      "permissions": [
+        {
+          "control_name": "sf_update_serviceAgent",
+          "title": "Update Service Agent details"
+        },
+        {
+          "control_name": "sf_update_service_industry",
+          "title": "Update SA industry"
+        },
+        {
+          "control_name": "sf_change_service_subscription",
+          "title": "Change SA subscription"
+        },
+        {
+          "control_name": "sf_create_service_agent",
+          "title": "Service agent creation"
+        },
+        {
+          "control_name": "sf_list_service_agent",
+          "title": "list Service agent"
+        },
+        {
+          "control_name": "sf_read_service_agent",
+          "title": "View service agent"
+        },
+        {
+          "control_name": "sf_read_service_industry",
+          "title": "View service industry"
+        },
+        {
+          "control_name": "sf_read_connected_org",
+          "title": "view connected organization"
+        },
+        {
+          "control_name": "sf_read_service_subscription",
+          "title": "view service agent subscription"
+        },
+        {
+          "control_name": "sf_service_agent_view_connected_orgs",
+          "title": "view connected orgs"
+        }
+      ]
+    },
+    "jobCalendar": {
+      "title": "Job Calendar",
+      "show_in_sidebar": 1,
+      "permissions": []
+    },
+    "serviceAgentJobCalendar": {
+      "title": "Job Calendar",
+      "show_in_sidebar": 1,
+      "permissions": []
+    },
+    "serviceAgentJobs": {
+      "title": "Service Agent Job",
+      "show_in_sidebar": 1,
+      "permissions": [
+        {
+          "control_name": "sf_service_agent_jobs_service_agent_jobs_functions",
+          "title": "manage service agent jobs"
+        }
+      ]
+    }
+  }
+}

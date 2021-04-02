@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoogleCaptcha should render correctly GoogleCaptcha 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GoogleCaptcha />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ReCaptcha
+        badge="bottomright"
+        data-badge="null"
+        data-theme="dark"
+        elementID="g-recaptcha"
+        expiredCallback={[Function]}
+        expiredCallbackName="expiredCallback"
+        hl="en"
+        onloadCallback={[Function]}
+        onloadCallbackName="onloadCallback"
+        render="explicit"
+        sitekey="6Le1aqkUAAAAAAPsov0VYB2-9L5xrsfyJJ9FnoYA"
+        size="normal"
+        tabindex="0"
+        theme="light"
+        type="image"
+        verifyCallback={[Function]}
+        verifyCallbackName="verifyCallback"
+      />,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "badge": "bottomright",
+        "data-badge": "null",
+        "data-theme": "dark",
+        "elementID": "g-recaptcha",
+        "expiredCallback": [Function],
+        "expiredCallbackName": "expiredCallback",
+        "hl": "en",
+        "onloadCallback": [Function],
+        "onloadCallbackName": "onloadCallback",
+        "render": "explicit",
+        "sitekey": "6Le1aqkUAAAAAAPsov0VYB2-9L5xrsfyJJ9FnoYA",
+        "size": "normal",
+        "tabindex": "0",
+        "theme": "light",
+        "type": "image",
+        "verifyCallback": [Function],
+        "verifyCallbackName": "verifyCallback",
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ReCaptcha
+          badge="bottomright"
+          data-badge="null"
+          data-theme="dark"
+          elementID="g-recaptcha"
+          expiredCallback={[Function]}
+          expiredCallbackName="expiredCallback"
+          hl="en"
+          onloadCallback={[Function]}
+          onloadCallbackName="onloadCallback"
+          render="explicit"
+          sitekey="6Le1aqkUAAAAAAPsov0VYB2-9L5xrsfyJJ9FnoYA"
+          size="normal"
+          tabindex="0"
+          theme="light"
+          type="image"
+          verifyCallback={[Function]}
+          verifyCallbackName="verifyCallback"
+        />,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "badge": "bottomright",
+          "data-badge": "null",
+          "data-theme": "dark",
+          "elementID": "g-recaptcha",
+          "expiredCallback": [Function],
+          "expiredCallbackName": "expiredCallback",
+          "hl": "en",
+          "onloadCallback": [Function],
+          "onloadCallbackName": "onloadCallback",
+          "render": "explicit",
+          "sitekey": "6Le1aqkUAAAAAAPsov0VYB2-9L5xrsfyJJ9FnoYA",
+          "size": "normal",
+          "tabindex": "0",
+          "theme": "light",
+          "type": "image",
+          "verifyCallback": [Function],
+          "verifyCallbackName": "verifyCallback",
+        },
+        "ref": [Function],
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

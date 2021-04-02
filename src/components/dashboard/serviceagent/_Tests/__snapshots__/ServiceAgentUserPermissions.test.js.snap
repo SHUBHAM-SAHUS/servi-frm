@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceAgentUserPermissions Component Test should render component service agent user permissions correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ServiceAgentUserPermissions />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="sf-card"
+      >
+        <div
+          className="sf-card-head abb-1 d-flex justify-content-between align-items-center"
+        >
+          <h4
+            className="sf-sm-hd sf-pg-heading"
+          >
+            User Permissions
+          </h4>
+        </div>
+        <div
+          className="sf-card-body"
+        >
+          <div
+            className="user-p-notxt d-flex justify-content-between"
+          >
+            <img
+              src="/images/owl-img.png"
+            />
+            <span>
+              Permissions are visible when a use is selected from the users panel
+            </span>
+          </div>
+        </div>
+      </div>,
+      "className": "col-md-3",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="sf-card-head abb-1 d-flex justify-content-between align-items-center"
+          >
+            <h4
+              className="sf-sm-hd sf-pg-heading"
+            >
+              User Permissions
+            </h4>
+          </div>,
+          <div
+            className="sf-card-body"
+          >
+            <div
+              className="user-p-notxt d-flex justify-content-between"
+            >
+              <img
+                src="/images/owl-img.png"
+              />
+              <span>
+                Permissions are visible when a use is selected from the users panel
+              </span>
+            </div>
+          </div>,
+        ],
+        "className": "sf-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h4
+              className="sf-sm-hd sf-pg-heading"
+            >
+              User Permissions
+            </h4>,
+            "className": "sf-card-head abb-1 d-flex justify-content-between align-items-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "User Permissions",
+              "className": "sf-sm-hd sf-pg-heading",
+            },
+            "ref": null,
+            "rendered": "User Permissions",
+            "type": "h4",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="user-p-notxt d-flex justify-content-between"
+            >
+              <img
+                src="/images/owl-img.png"
+              />
+              <span>
+                Permissions are visible when a use is selected from the users panel
+              </span>
+            </div>,
+            "className": "sf-card-body",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  src="/images/owl-img.png"
+                />,
+                <span>
+                  Permissions are visible when a use is selected from the users panel
+                </span>,
+              ],
+              "className": "user-p-notxt d-flex justify-content-between",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "src": "/images/owl-img.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Permissions are visible when a use is selected from the users panel",
+                },
+                "ref": null,
+                "rendered": "Permissions are visible when a use is selected from the users panel",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="sf-card"
+        >
+          <div
+            className="sf-card-head abb-1 d-flex justify-content-between align-items-center"
+          >
+            <h4
+              className="sf-sm-hd sf-pg-heading"
+            >
+              User Permissions
+            </h4>
+          </div>
+          <div
+            className="sf-card-body"
+          >
+            <div
+              className="user-p-notxt d-flex justify-content-between"
+            >
+              <img
+                src="/images/owl-img.png"
+              />
+              <span>
+                Permissions are visible when a use is selected from the users panel
+              </span>
+            </div>
+          </div>
+        </div>,
+        "className": "col-md-3",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="sf-card-head abb-1 d-flex justify-content-between align-items-center"
+            >
+              <h4
+                className="sf-sm-hd sf-pg-heading"
+              >
+                User Permissions
+              </h4>
+            </div>,
+            <div
+              className="sf-card-body"
+            >
+              <div
+                className="user-p-notxt d-flex justify-content-between"
+              >
+                <img
+                  src="/images/owl-img.png"
+                />
+                <span>
+                  Permissions are visible when a use is selected from the users panel
+                </span>
+              </div>
+            </div>,
+          ],
+          "className": "sf-card",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4
+                className="sf-sm-hd sf-pg-heading"
+              >
+                User Permissions
+              </h4>,
+              "className": "sf-card-head abb-1 d-flex justify-content-between align-items-center",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "User Permissions",
+                "className": "sf-sm-hd sf-pg-heading",
+              },
+              "ref": null,
+              "rendered": "User Permissions",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="user-p-notxt d-flex justify-content-between"
+              >
+                <img
+                  src="/images/owl-img.png"
+                />
+                <span>
+                  Permissions are visible when a use is selected from the users panel
+                </span>
+              </div>,
+              "className": "sf-card-body",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    src="/images/owl-img.png"
+                  />,
+                  <span>
+                    Permissions are visible when a use is selected from the users panel
+                  </span>,
+                ],
+                "className": "user-p-notxt d-flex justify-content-between",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "/images/owl-img.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Permissions are visible when a use is selected from the users panel",
+                  },
+                  "ref": null,
+                  "rendered": "Permissions are visible when a use is selected from the users panel",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'sficons';
+  /* src:  url('../fonts/sficons.eot?zhexvh');
+  src:  url('../fonts/sficons.eot?zhexvh#iefix') format('embedded-opentype'),
+    url('../fonts/sficons.ttf?zhexvh') format('truetype'),
+    url('../fonts/sficons.woff?zhexvh') format('woff'),
+    url('../fonts/sficons.svg?zhexvh#sficons') format('svg'); */
+    src:  url('../fonts/sficons.eot?dxh0kl');
+    src:  url('../fonts/sficons.eot?dxh0kl#iefix') format('embedded-opentype'),
+      url('../fonts/sficons.ttf?dxh0kl') format('truetype'),
+      url('../fonts/sficons.woff?dxh0kl') format('woff'),
+      url('../fonts/sficons.svg?dxh0kl#sficons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sficons-"], [class*=" sficons-"],.sficon {
+  font-family: 'sficons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 14px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sf-sign-swms:before {
+  content: "\e900";
+}
+.sf-sign-off-sheet:before {
+  content: "\e901";
+}
+.sf-incident-report:before {
+  content: "\e902";
+}
+.sf-time-sheet:before {
+  content: "\e903";
+}
+.sf-business-report:before {
+  content: "\e904";
+}
+.sf-invoice:before {
+  content: "\e905";
+}
+.sf-man-with-arm-injury:before {
+  content: "\e906";
+}
+.sf-fire-hazard-sign:before {
+  content: "\e907";
+}
+.sf-hard-hat-solid:before {
+  content: "\e908";
+}

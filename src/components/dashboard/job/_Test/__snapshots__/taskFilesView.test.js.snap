@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskFileViews Component Test should render component TaskFileViews correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TaskFileViews />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="carousel-inner"
+        >
+          
+        </div>,
+        <div
+          className="slider-nav"
+        >
+          <a
+            className="carousel-control-prev"
+            data-slide="prev"
+            href="#licencesSlider"
+            role="button"
+          >
+            <i
+              aria-hidden="true"
+              className="material-icons"
+            >
+              keyboard_arrow_left
+            </i>
+          </a>
+          <a
+            className="carousel-control-next"
+            data-slide="next"
+            href="#licencesSlider"
+            role="button"
+          >
+            <i
+              aria-hidden="true"
+              className="material-icons"
+            >
+              keyboard_arrow_right
+            </i>
+          </a>
+        </div>,
+      ],
+      "className": "carousel slide taskfimgModal",
+      "data-interval": "false",
+      "data-ride": "carousel",
+      "id": "licencesSlider",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+          "className": "carousel-inner",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              className="carousel-control-prev"
+              data-slide="prev"
+              href="#licencesSlider"
+              role="button"
+            >
+              <i
+                aria-hidden="true"
+                className="material-icons"
+              >
+                keyboard_arrow_left
+              </i>
+            </a>,
+            <a
+              className="carousel-control-next"
+              data-slide="next"
+              href="#licencesSlider"
+              role="button"
+            >
+              <i
+                aria-hidden="true"
+                className="material-icons"
+              >
+                keyboard_arrow_right
+              </i>
+            </a>,
+          ],
+          "className": "slider-nav",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                aria-hidden="true"
+                className="material-icons"
+              >
+                keyboard_arrow_left
+              </i>,
+              "className": "carousel-control-prev",
+              "data-slide": "prev",
+              "href": "#licencesSlider",
+              "role": "button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-hidden": "true",
+                "children": "keyboard_arrow_left",
+                "className": "material-icons",
+              },
+              "ref": null,
+              "rendered": "keyboard_arrow_left",
+              "type": "i",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                aria-hidden="true"
+                className="material-icons"
+              >
+                keyboard_arrow_right
+              </i>,
+              "className": "carousel-control-next",
+              "data-slide": "next",
+              "href": "#licencesSlider",
+              "role": "button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-hidden": "true",
+                "children": "keyboard_arrow_right",
+                "className": "material-icons",
+              },
+              "ref": null,
+              "rendered": "keyboard_arrow_right",
+              "type": "i",
+            },
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="carousel-inner"
+          >
+            
+          </div>,
+          <div
+            className="slider-nav"
+          >
+            <a
+              className="carousel-control-prev"
+              data-slide="prev"
+              href="#licencesSlider"
+              role="button"
+            >
+              <i
+                aria-hidden="true"
+                className="material-icons"
+              >
+                keyboard_arrow_left
+              </i>
+            </a>
+            <a
+              className="carousel-control-next"
+              data-slide="next"
+              href="#licencesSlider"
+              role="button"
+            >
+              <i
+                aria-hidden="true"
+                className="material-icons"
+              >
+                keyboard_arrow_right
+              </i>
+            </a>
+          </div>,
+        ],
+        "className": "carousel slide taskfimgModal",
+        "data-interval": "false",
+        "data-ride": "carousel",
+        "id": "licencesSlider",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "carousel-inner",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="carousel-control-prev"
+                data-slide="prev"
+                href="#licencesSlider"
+                role="button"
+              >
+                <i
+                  aria-hidden="true"
+                  className="material-icons"
+                >
+                  keyboard_arrow_left
+                </i>
+              </a>,
+              <a
+                className="carousel-control-next"
+                data-slide="next"
+                href="#licencesSlider"
+                role="button"
+              >
+                <i
+                  aria-hidden="true"
+                  className="material-icons"
+                >
+                  keyboard_arrow_right
+                </i>
+              </a>,
+            ],
+            "className": "slider-nav",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  aria-hidden="true"
+                  className="material-icons"
+                >
+                  keyboard_arrow_left
+                </i>,
+                "className": "carousel-control-prev",
+                "data-slide": "prev",
+                "href": "#licencesSlider",
+                "role": "button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "children": "keyboard_arrow_left",
+                  "className": "material-icons",
+                },
+                "ref": null,
+                "rendered": "keyboard_arrow_left",
+                "type": "i",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  aria-hidden="true"
+                  className="material-icons"
+                >
+                  keyboard_arrow_right
+                </i>,
+                "className": "carousel-control-next",
+                "data-slide": "next",
+                "href": "#licencesSlider",
+                "role": "button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "aria-hidden": "true",
+                  "children": "keyboard_arrow_right",
+                  "className": "material-icons",
+                },
+                "ref": null,
+                "rendered": "keyboard_arrow_right",
+                "type": "i",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

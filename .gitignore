@@ -1,0 +1,7 @@
+/node_modules
+package-lock.json
+/build
+*.yml
+/src/dataProvider/env.config.js
+#cicd.sh
+*.log

@@ -1,0 +1,173 @@
+.ant-layout{
+  background:#f0f2f5;
+}
+.ant-layout-sider{
+  background: #222;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+.ant-menu-dark{
+  background: #222;
+}
+
+.ant-avatar{
+  width:22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-layout-header {
+  height: 50px;
+  padding: 0 16px;
+  line-height: 64px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(45, 59, 73, 0.24);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#root, .App, .ant-layout{height: 100%;}
+.ant-menu{
+  text-align: left;
+}
+.ant-menu .ant-menu-item{
+  padding-left: 10px!important;
+  transition: 0.5s all;
+}
+.ant-menu-dark{background: transparent;}
+.ant-menu-inline-collapsed .ant-menu-item a{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.347345);
+}
+.ant-menu-inline-collapsed.ant-menu .ant-menu-item {
+  text-align: center;
+  padding: 0!important;
+  margin: 0;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item{
+  background: transparent;
+  width: 100%;
+  transition: 0.5s all;
+  margin: 0;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+  background: transparent;
+  width: 100%;
+  transition: 0.5s all;
+  margin: 0;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected a i{
+  color: #fff;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected a > span {
+  color: #03a791;
+}
+.ant-dropdown-menu-item > a:hover, .ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title > a:hover{
+  color: #fff!important;
+}
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover{
+  background: #03A791;
+}
+.ant-menu.sf-nav .sf-nav-items a i {
+  font-size: 20px;
+}
+.ant-menu-item .anticon + span {
+  font-size: 14px;
+  font-weight: normal;
+  white-space: normal;
+  line-height: 24px;
+}
+.ant-menu.sf-nav {
+  margin-top: 20px;
+}
+.ant-menu-item > a{
+  display: flex;
+  padding: 0px 32px 4px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  transition: 0.3s;
+  margin-left: -20px;
+}
+.ant-menu-inline-collapsed .ant-menu-item > a{
+  display: inline-flex;
+}
+
+.ant-badge-dot{
+  width: 8px;
+  height: 8px;
+  background: #ff151f;
+  top: 1px;
+  right: 4px;
+}
+.no-dots .ant-badge-dot{display: none;}
+.ant-dropdown-menu-item > a, .ant-dropdown-menu-submenu-title > a{
+  line-height: normal;
+}
+
+/* changes in left nav */
+.ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+  height: auto;
+  line-height: normal;
+}
+.ant-menu-inline-collapsed > .ant-menu-item .anticon, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .anticon, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon{
+  line-height: normal;
+}
+.ant-menu-inline-collapsed .ant-menu-item .anticon + span{
+  display: none;
+}
+.ant-menu.sf-nav .ant-menu-item.sf-nav-items {
+  margin: 0 0 5px;
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+}
+
+.ant-select-auto-complete.ant-select .ant-input{
+  padding-right: 50px;
+}
+
+/* notification */
+.ant-notification-notice{
+  padding: 15px;
+}
+.ant-success {
+  background-color: #f6ffed;
+  border: 1px solid #b7eb8f;
+}
+.ant-info {
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+}
+.ant-warning {
+  background-color: #fffbe6;
+  border: 1px solid #ffe58f;
+}
+.ant-error {
+  background-color: #fff1f0;
+  border: 1px solid #ffa39e;
+}
+.job-doc-label b{
+  font-weight: bold;
+  color:#000;
+}

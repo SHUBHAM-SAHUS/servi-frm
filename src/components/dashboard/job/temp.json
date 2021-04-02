@@ -1,0 +1,108 @@
+[
+    {
+      "id": 45,
+      "name": "Sawyer Flowers",
+      "areas": [
+        {
+          "area_id": 108,
+          "area_name": "Hilel Aguirre",
+          "swms_doc": [],
+          "tool_type": [],
+          "ppe": [],
+          "hig_risk_work": [],
+          "chemical": []
+        },
+        {
+          "area_id": 44,
+          "area_name": "Kitchen",
+          "swms_doc": [
+            {
+              "id": 1,
+              "activity": "Prepare for training"
+            }
+          ],
+          "tool_type": [
+            {
+              "id": 1,
+              "name": "Glass Cleaning"
+            },
+            {
+              "id": 2,
+              "name": "fsdfs"
+            }
+          ],
+          "ppe": [
+            {
+              "id": 1,
+              "name": "Dust Mask"
+            }
+          ],
+          "hig_risk_work": [
+            {
+              "id": 1,
+              "name": "Diving Work"
+            }
+          ],
+          "chemical": [
+            {
+              "id": 1,
+              "name": "Org A"
+            }
+          ]
+        },
+        {
+          "area_id": 93,
+          "area_name": "Roof top",
+          "swms_doc": [
+            {
+              "id": 1,
+              "activity": "Prepare for training"
+            }
+          ],
+          "tool_type": [
+            {
+              "id": 1,
+              "name": "Glass Cleaning"
+            },
+            {
+              "id": 2,
+              "name": "fsdfs"
+            }
+          ],
+          "ppe": [
+            {
+              "id": 2,
+              "name": "test"
+            }
+          ],
+          "hig_risk_work": [
+            {
+              "id": 1,
+              "name": "Diving Work"
+            }
+          ],
+          "chemical": [
+            {
+              "id": 1,
+              "name": "Org A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Kellie Morin",
+      "areas": [
+        {
+          "area_id": 109,
+          "area_name": "Judith Garrison",
+          "swms_doc": [],
+          "tool_type": [],
+          "ppe": [],
+          "hig_risk_work": [],
+          "chemical": []
+        }
+      ]
+    }
+  ]
